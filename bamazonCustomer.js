@@ -84,7 +84,7 @@ function selectItem() {
                         }
                     ], function (err, resp) {
                         let totalPrice = ans.quantity * res[0].price;
-                        console.log("Congrats! You bought " + ans.quantity + " of " + res[0].product_name + " for " + totalPrice + "!!!");
+                        console.log("Congrats! You bought " + ans.quantity + " of " + res[0].product_name + " for " + totalPrice + " dollars!!!");
                         // connection.query(select, [ans.choice], function(err,resp){
                         //     console.log("Remaining stock: " + res[0].stock_quantity);
                         // });
